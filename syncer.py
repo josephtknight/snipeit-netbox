@@ -551,7 +551,7 @@ class Syncer:
                                                  status='active',
                                                  site=nb_site['id'] if nb_site else 1,
                                                  asset_tag=snipe_asset['asset_tag'],
-                                                 role=nb_role['id'],
+                                                 device_role=nb_role['id'],
                                                  serial=snipe_asset['serial'],
                                                  device_type=nb_device_type['id'],
                                                  tenant=nb_tenant['id'] if nb_tenant is not None else None,
